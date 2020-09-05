@@ -58,3 +58,6 @@ This app is shared under the CreativeCommons Attribution-ShareAlike license.
 
 
 ### The blueprint dashboard, on which Amphetamine is built, is licensed under the terms mentioned [here](https://github.com/jahirfiquitiva/Blueprint#license). 
+
+[blueprint-url]: https://github.com/jahirfiquitiva/Blueprint
+[jahir-url]: https://jahir.dev

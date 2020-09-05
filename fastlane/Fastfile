@@ -26,7 +26,7 @@ platform :android do
   desc "Bundle Build"
   lane :bundle_build do |options|
     properties = {
-      "android.injected.signing.store.file" => "app/keystore.jks",
+      "android.injected.signing.store.file" => "keystore.jks",
       "android.injected.signing.store.password" => ENV["STORE_PASSWORD"],
       "android.injected.signing.key.alias" => ENV["KEY_ALIAS"],
       "android.injected.signing.key.password" => ENV["KEY_PASSWORD"]

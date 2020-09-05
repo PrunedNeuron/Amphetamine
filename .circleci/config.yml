@@ -58,7 +58,7 @@ references:
     decode_android_key: &decode_android_key
         run:
             name: Decode Android key store
-            command: echo $KEYSTORE | base64 -di | tee keystore.jks app/keystore.jks >/dev/null
+            command: echo $KEYSTORE | base64 --decode > keystore.jks
 
     create_google_play_key: &create_google_play_key
         run:

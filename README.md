@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/PrunedNeuron/Amphetamine.svg?style=svg)](https://circleci.com/gh/PrunedNeuron/Amphetamine)
+
+
 <img src="contributions/img/app_icon.png" width="64" align="right" hspace="20" />
 
 # Amphetamine Icons

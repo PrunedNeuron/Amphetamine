@@ -1,0 +1,2 @@
+11 new icons.
+Added changed/new component mappings.

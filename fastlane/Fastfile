@@ -1,0 +1,44 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  before_all do |lane, options|
+    @build_type = "Debug"
+    if not options.empty?
+      @build_type = options["release"] ? "Release" : "Debug"
+    end
+  end
+
+  desc "Bundle Build"
+  lane :bundle_build do |options|
+    properties = {
+      "android.injected.signing.store.file" => "keystore.jks",
+      "android.injected.signing.store.password" => ENV["STORE_PASSWORD"],
+      "android.injected.signing.key.alias" => ENV["KEY_ALIAS"],
+      "android.injected.signing.key.password" => ENV["KEY_PASSWORD"]
+    } if @build_type == "Release"
+
+    gradle(task: "bundle", build_type: @build_type, properties: properties)
+  end
+
+  desc "Deploy a new version to the Google Play"
+  lane :deploy do
+    @build_type = "Release"
+    bundle_build
+    upload_to_play_store
+  end
+end

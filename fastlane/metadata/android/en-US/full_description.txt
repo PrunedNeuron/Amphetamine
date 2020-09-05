@@ -1,0 +1,86 @@
+Note: Amphetamine is now <a href="https://git.io/amphetamineicons">open source</a>!
+
+Amphetamine is a colorful, vibrant, <i>energetic</i> icon pack based on material design, but with several improvements.
+
+This icon pack is my take on material design, not too far off from the official guidelines, but enough to satisfy my own tastes. These are the kind of icons that I would prefer. Feel free to <a href="mailto:am@ayushm.dev">send</a> me suggestions if you have any.
+
+<b>Features</b>
+• 1400+ icons
+• Several alternative icons for nearly every app
+• 45+ wallpapers
+• Seamless Icon requests with a single tap
+• Auto apply
+
+
+I no longer take premium icon requests, since it would be unfair to prioritize my tasks based on who paid the most. In fact, I have modified the icon requests system to not contain the user's name or other identifying data, so that all icon requests are considered equal. 
+
+I prioritize based on how many requests I have received for each app. The apps which are more popular will get themed before the rest. However, if I have an especially good idea for a regular app, I might make an icon for that instead. 
+
+<b>Like every other icon pack, Amphetamine works with almost every popular launcher on the Play Store</b>: 
+
+• Nova Launcher
+• Evie Launcher
+• Action Launcher
+• ADW Launcher
+• Apex Launcher
+• Atom Launcher
+• Aviate Launcher
+• CM Theme Engine
+• GO Launcher
+• Holo Launcher
+• Holo Launcher HD
+• LG Home
+• Lucid Launcher
+• M Launcher
+• Mini Launcher
+• Next Launcher
+• Nougat Launcher
+• Smart Launcher
+• Solo Launcher
+• V Launcher
+• ZenUI Launcher
+• Zero Launcher
+• ABC Launcher
+• <i>and MORE</i>
+
+<b>For the following launchers, apply the icon pack directly from the launcher's settings:</b> 
+
+• Arrow Launcher
+• ASAP Launcher
+• Flick Launcher
+• Cobo Launcher
+• Line Launcher
+• Mesh Launcher
+• Peek Launcher
+• Z Launcher
+• Launch by Quixey Launcher
+• iTop Launcher
+• KK Launcher
+• MN Launcher
+• New Launcher
+• S Launcher
+• Open Launcher
+
+<i>Amphetamine is partially compatible with the following launchers:</i>
+(<b>Only supports the launcher's icon picker, you need to apply icons manually (Tap, hold then edit)</b>)
+
+• +HOME 
+• Turbo Launcher 
+
+
+<b>FAQs</b>
+
+<b> What happened to premium requests? </b>
+Due to time limitations, the premium request feature has been removed. Also, I realized that it was unfair to prioritize some requests rather than to treat them all equally. All users now have the ability to send 10 icon requests per week.
+
+<b> Will my icon request be part of the next update? </b>
+I get tens of requests everyday, and I try my best to make icons for all of them. However, I prioritize the apps that are requested the most by multiple users. Although I cannot guarantee your request will be part of the next update, I'll try my best.
+
+<b> How can I contact you? </b>
+You can email me at <a href="mailto:aym@pm.me">aym@pm.me</a>.
+
+<b> Contribute! </b>
+You can contribute to the project <a href="https://git.io/amphetamineicons">here</a>.
+
+<b>About the application</b>:
+Amphetamine uses a slightly modified version of the open source <a href="https://github.com/jahirfiquitiva/Blueprint">Blueprint dashboard</a> by <a href="https://jahir.dev/">Jahir Fiquitiva</a>. The changes I have made to the source are minimal with a single feature change - the way icon requests are sent. The modification involves communicating with an API that I made to make managing icon requests easier for me and the process of sending me an icon request, easier for the user.

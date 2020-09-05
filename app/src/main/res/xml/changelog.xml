@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version title="v4.0.1" />
+    <item text="Added 8 new icons"/>
+    <item text="Fixed a few broken component mappings" />
+</resources>

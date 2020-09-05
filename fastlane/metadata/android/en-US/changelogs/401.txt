@@ -1,0 +1,3 @@
+Added 8 new icons.
+Added changed/new component mappings.
+Made Amphetamine open source!

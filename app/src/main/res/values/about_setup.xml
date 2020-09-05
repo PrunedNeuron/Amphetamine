@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+    <string-array name="credits_photos" formatted="false" tools:ignore="TypographyDashes">
+        <item>https://avatars2.githubusercontent.com/u/4619572</item>
+    </string-array>
+
+    <string-array name="credits_titles">
+        <item>Ayush Mishra</item>
+    </string-array>
+
+    <string-array name="credits_descriptions">
+        <item>I designed the icons.</item>
+    </string-array>
+
+    <string-array name="credits_buttons">
+        <item>Dribbble|GitHub|Website</item>
+
+    </string-array>
+
+    <string-array name="credits_links">
+        <item>https://www.dribbble.com/ayush|https://github.com/PrunedNeuron|https://ayushm.dev</item>
+    </string-array>
+</resources>
